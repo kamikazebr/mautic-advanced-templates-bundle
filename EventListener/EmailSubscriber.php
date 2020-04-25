@@ -9,7 +9,7 @@ use Mautic\EmailBundle\Helper\PlainTextHelper;
 use Mautic\CoreBundle\Exception as MauticException;
 use MauticPlugin\MauticAdvancedTemplatesBundle\Helper\TemplateProcessor;
 use Psr\Log\LoggerInterface;
-
+use Mautic\CoreBundle\Factory\ModelFactory;
 /**
  * Class EmailSubscriber.
  */
